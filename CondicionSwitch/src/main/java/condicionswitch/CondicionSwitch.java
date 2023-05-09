@@ -3,7 +3,7 @@ package condicionswitch;
 public class CondicionSwitch {
 
     public static void main(String[] args) {
-        int dia =4;
+        int dia =3;
         String nombreDia;
         
         switch(dia){
