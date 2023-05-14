@@ -10,11 +10,11 @@ public class CalculoImc {
         
         System.out.println("Ingrese por favor su peso en Kgs");
         Scanner teclado = new Scanner (System.in);
-        peso = teclado.nextInt();
+        peso = teclado.nextDouble();
         
         System.out.println("Ingrese por favor su estatura en metros");
         Scanner teclado2 = new Scanner (System.in);
-        estatura = teclado2.nextInt();
+        estatura = teclado2.nextDouble();
         
         imc = peso/(estatura*estatura);
         
